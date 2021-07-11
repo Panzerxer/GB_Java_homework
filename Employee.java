@@ -1,7 +1,7 @@
 package Lesson_5;
 
 public class Employee {
-    String fullname;
+   String fullname;
     String position;
     String email;
     String phone;
@@ -16,14 +16,13 @@ public class Employee {
         phone = newphone;
         sallary = newsallary;
         age = newage;
-       // printer(); //Вывести всех
-        printerold(); //Вывести старшще 40 лет
+
     }
     void printer(){
         System.out.println(fullname + " " + position + " " + email + " " + phone + " " + sallary + " " + age);
         System.out.println();
     }
-    void   printerold(){
+    void printerold(){
 
         if (age > 40){
             System.out.println(fullname + " " + position + " " + email + " " + phone + " " + sallary + " " + age);
